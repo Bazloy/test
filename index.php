@@ -50,4 +50,7 @@ require_once root."/modules/sessions.php";
 require_once root."/modules/html/newsI.php";
 require_once root."/modules/html/registration.php";
 require_once root."/modules/html/footer.php";
+
+
+
 ?>
