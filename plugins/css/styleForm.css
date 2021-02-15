@@ -1,0 +1,57 @@
+.h1Form{
+	margin: 0;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #5200a5;
+}
+
+.formForm{
+	margin: 0 auto;
+	background: rgda(0, 186, 255, 0.77);
+	width: 450px;
+	height: 500px;
+	padding: 20px;
+}
+
+.formGroup{
+	margin: 10px;
+	padding: 5px;
+}
+
+.formGroup label{
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+
+.inputForm{
+	margin-top: 10px;
+	height: 40px;
+	width: 400px;
+	border-radius: 20px/20px;
+	border: none;
+	padding-left: 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.inputForm:focus{
+	border: 2px solid #6c00ff;
+	transform: translateX(15px);
+	width: 385px;
+}
+
+.buttonForm{
+	cursor: pointer;
+	padding: 10px 30px;
+	height: 50px;
+	background: #5200a5;
+	border: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 20px/20px;
+}
+
+.buttonForm:hover{
+	opacity: .80;
+	font-weight: bold;
+	transform: scale(1.1);
+}

@@ -1,0 +1,87 @@
+.modalO{
+	display:none;
+	position:fixed;
+	z-index:1;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:auto;
+	background-color:rgb(0,0,0,0.5);
+	
+}
+
+.modalCon{
+	margin:100px auto;
+	padding:25px;
+	border:1px solid #888;
+	background-color:#fefefe;
+	width: 450px;
+	height: 350px;
+}
+
+.close{
+	float:right;
+	color:#aaa;
+	font-size:28px;
+	font-weight:bold;
+}
+
+.h1Form{
+	margin: 0;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #5200a5;
+}
+
+.formForm{
+	margin: 0 auto;
+	background: rgda(0, 186, 255, 0.77);
+	width: 450px;
+	height: 350px;
+	padding: 20px;
+}
+
+.formGroup{
+	margin: 10px;
+	padding: 5px;
+}
+
+.formGroup label{
+	padding-left: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.inputForm{
+	margin-top: 10px;
+	height: 40px;
+	width: 400px;
+	border-radius: 20px/20px;
+	border: none;
+	padding-left: 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.inputForm:focus{
+	border: 2px solid #6c00ff;
+	transform: translateX(15px);
+	width: 385px;
+}
+
+.buttonForm{
+	cursor: pointer;
+	padding: 10px 30px;
+	height: 50px;
+	background: #5200a5;
+	border: none;
+	text-transform: uppercase;
+	font-size: 15px;
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+	border-radius: 20px/20px;
+}
+
+.buttonForm:hover{
+	opacity: .80;
+	font-weight: bold;
+	transform: scale(1.1);
+}
